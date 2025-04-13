@@ -14,6 +14,7 @@ h1, h2 {
 }
 
 /* Блок с акцией на отзывы */
+/* Стили для блока с акцией на отзывы */
 .promo {
     display: flex;
     justify-content: space-between;
@@ -21,6 +22,7 @@ h1, h2 {
     padding: 20px;
     background-color: #f7f7f7;
     border-radius: 10px;
+    margin-bottom: 40px;
 }
 
 .promo-text {
@@ -28,9 +30,32 @@ h1, h2 {
     font-size: 18px;
 }
 
+.promo-text h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.promo-text p {
+    font-size: 16px;
+    color: #555;
+}
+
 .promo-image {
     width: 200px;
     height: auto;
+}
+
+.btn-promo {
+    padding: 10px 20px;
+    background-color: #4b3f72;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-promo:hover {
+    background-color: #3e2d5b;
 }
 
 /* Кнопки */
