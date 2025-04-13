@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    color: #4b3f72; /* Цвет текста */
+    color: #4b3f72;
 }
 
 /* Заголовки */
@@ -101,7 +101,33 @@ h1, h2 {
     margin: 10px 0;
 }
 
-/* Карточки отзывов */
+/* Отзывы */
 .reviews-carousel {
     display: flex;
     overflow-x: auto;
+    gap: 20px;
+}
+
+/* Футер */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+footer .footer-left,
+footer .footer-center,
+footer .footer-right {
+    width: 30%;
+}
+
+footer a {
+    color: #4b3f72;
+    text-decoration: none;
+}
+
+footer .footer-right a {
+    margin-left: 10px;
+}
