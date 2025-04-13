@@ -216,7 +216,7 @@ h1, h2 {
     text-align: center;
 }
 
-.crypto-card img {
+.crypto-card img.coin-icon {
     width: 50px;
     height: auto;
     margin-bottom: 10px;
@@ -239,11 +239,11 @@ h1, h2 {
 }
 
 .price.positive {
-    color: #28a745;
+    color: #28a745; /* Зеленый цвет для положительных изменений */
 }
 
 .price.negative {
-    color: #e74c3c;
+    color: #e74c3c; /* Красный цвет для отрицательных изменений */
 }
 
 /* Кнопка "Большая кнопка" */
