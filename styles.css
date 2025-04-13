@@ -1,26 +1,31 @@
-/* Global Styles */
+/* Общие стили */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
+    color: #4b3f72; /* Цвет текста */
 }
 
+/* Заголовки */
 h1, h2 {
     color: #4b3f72;
+    text-align: center;
 }
 
-/* Promo Section */
+/* Блок с акцией на отзывы */
 .promo {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #f7f7f7;
+    border-radius: 10px;
 }
 
 .promo-text {
     max-width: 50%;
+    font-size: 18px;
 }
 
 .promo-image {
@@ -28,26 +33,68 @@ h1, h2 {
     height: auto;
 }
 
-/* Footer */
-footer {
+/* Кнопки */
+.btn-promo {
+    padding: 10px 20px;
+    background-color: #4b3f72;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-promo:hover {
+    background-color: #3e2d5b;
+}
+
+/* Блок обмена */
+.exchange form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.exchange .form-group {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+
+.exchange button {
+    grid-column: span 2;
+    background-color: #4b3f72;
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.exchange button:hover {
+    background-color: #3e2d5b;
+}
+
+/* Преимущества сервиса */
+.advantages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+.adv-card {
+    background-color: white;
+    border: 1px solid #ddd;
     padding: 20px;
-    background-color: #fff;
-    border-top: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
 }
 
-footer .footer-left,
-footer .footer-center,
-footer .footer-right {
-    width: 30%;
+.adv-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
 }
 
-footer a {
-    color: #4b3f72;
-    text-decoration: none;
-}
-
-footer .footer-right a {
-    margin-left: 10px;
-}
+.adv
