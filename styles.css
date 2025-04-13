@@ -97,4 +97,11 @@ h1, h2 {
     margin-bottom: 10px;
 }
 
-.adv
+.adv-card h3 {
+    margin: 10px 0;
+}
+
+/* Карточки отзывов */
+.reviews-carousel {
+    display: flex;
+    overflow-x: auto;
