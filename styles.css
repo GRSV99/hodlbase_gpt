@@ -76,37 +76,67 @@ h1, h2 {
 }
 
 /* Блок обмена */
-.pay-forms {
-    background-color: white;
-    border-radius: 20px;
-    padding: 20px;
-    display: flex
-;
-    flex-direction: column;
-    box-shadow: 0 0 10px 5px rgba(230, 230, 250, 1);
-}
-.exchange form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
+/* Стили для блока обмена криптовалют */
+.crypto-exchange {
+    padding: 30px;
+    background-color: #F6F7FF;
+    border-radius: 10px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.exchange .form-group {
+.crypto-exchange h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #4b3f72;
+    margin-bottom: 10px;
+}
+
+.crypto-exchange p {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.exchange-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.exchange-form .form-group {
     display: flex;
     flex-direction: column;
 }
 
-.exchange button {
+.exchange-form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.exchange-form input,
+.exchange-form select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.exchange-form button {
     grid-column: span 2;
+    padding: 15px;
     background-color: #4b3f72;
     color: white;
     border: none;
-    padding: 15px;
-    cursor: pointer;
     border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
 }
 
-.exchange button:hover {
+.exchange-form button:hover {
     background-color: #3e2d5b;
 }
 
