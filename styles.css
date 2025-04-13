@@ -76,6 +76,15 @@ h1, h2 {
 }
 
 /* Блок обмена */
+.pay-forms {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex
+;
+    flex-direction: column;
+    box-shadow: 0 0 10px 5px rgba(230, 230, 250, 1);
+}
 .exchange form {
     display: grid;
     grid-template-columns: 1fr 1fr;
