@@ -6,25 +6,60 @@ body {
     background-color: #f9f9f9;
 }
 
-h1 {
+h1, h2 {
     color: #4b3f72;
 }
 
 /* Promo Section */
 .promo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
     background-color: #f7f7f7;
-    text-align: center;
 }
 
-.btn-promo {
-    padding: 10px 20px;
-    background-color: #4b3f72;
-    color: white;
-    border: none;
-    cursor: pointer;
+.promo-text {
+    max-width: 50%;
 }
 
-.btn-promo:hover {
-    background-color: #3e2d5b;
+.promo-image {
+    width: 200px;
+    height: auto;
+}
+
+/* Exchange Section */
+.exchange form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.exchange .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+footer .footer-left,
+footer .footer-center,
+footer .footer-right {
+    width: 30%;
+}
+
+footer a {
+    color: #4b3f72;
+    text-decoration: none;
+}
+
+footer .footer-right a {
+    margin-left: 10px;
 }
