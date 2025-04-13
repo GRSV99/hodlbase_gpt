@@ -28,18 +28,6 @@ h1, h2 {
     height: auto;
 }
 
-/* Exchange Section */
-.exchange form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
-}
-
-.exchange .form-group {
-    display: flex;
-    flex-direction: column;
-}
-
 /* Footer */
 footer {
     display: flex;
