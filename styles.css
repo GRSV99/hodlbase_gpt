@@ -162,9 +162,14 @@ h1, h2 {
 /* Заголовок и описание */
 .crypto-header {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Заголовок слева */
+    justify-content: space-between; /* Располагаем элементы по краям */
     margin-bottom: 30px;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Заголовок и описание слева */
 }
 
 .crypto-info h2 {
@@ -181,9 +186,8 @@ h1, h2 {
 /* Кнопки сортировки справа */
 .sorting-buttons {
     display: flex;
-    justify-content: flex-end; /* Кнопки сортировки справа */
     gap: 20px;
-    margin-bottom: 30px;
+    align-items: center;
 }
 
 .btn-sort {
