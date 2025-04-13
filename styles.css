@@ -25,6 +25,7 @@ h1, h2 {
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Легкая тень для создания эффекта */
     margin-bottom: 40px;
     border: 1px solid #E2E3F7; /* Легкая граница */
+    max-width: 1100px;
 }
 
 .promo-text {
