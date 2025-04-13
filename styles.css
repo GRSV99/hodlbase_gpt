@@ -1,11 +1,31 @@
 /* Общие стили */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #4b3f72;
+    margin: 0; /* Убираем стандартные отступы */
+    padding: 0; /* Убираем стандартные отступы */
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Страница на всю ширину */
+    background-color: #f8f9fa; /* Цвет фона страницы */
 }
+
+/* Контейнер для основного контента */
+.main-container {
+    width: 100%; /* Страница на всю ширину */
+    max-width: 1100px; /* Максимальная ширина контента */
+    padding: 0 30px; /* Отступы по бокам (слева и справа) */
+    box-sizing: border-box; /* Учитывает паддинг в ширину */
+    margin-top: 20px; /* Отступ сверху */
+}
+
+/* Для страницы в целом */
+.page {
+    width: 100%;
+    min-height: 100vh; /* Высота страницы на весь экран */
+    display: flex;
+    justify-content: center;
+    padding: 30px 0; /* Отступы сверху и снизу */
+}
+
 
 /* Заголовки */
 h1, h2 {
