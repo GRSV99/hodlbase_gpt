@@ -7,9 +7,105 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- 1. Верхний блок (Акция на отзывы) -->
     <section class="promo">
-        <h1>Оставьте отзыв и получите до 500 ₽ на карту!</h1>
-        <button class="btn-promo">Подробнее</button>
+        <div class="promo-text">
+            <h1>Оставьте отзыв и получите до 500 ₽ на карту!</h1>
+            <p>Совершите обмен, оставьте отзыв о нас на любой площадке, на которой мы есть и получите сумму до 500₽ на счёт карты!</p>
+            <button class="btn-promo">Подробнее</button>
+        </div>
+        <img src="gift-image.png" alt="Подарок" class="promo-image">
     </section>
-</body>
-</html>
+
+    <!-- 2. Главный блок (Обмен валют) -->
+    <section class="exchange">
+        <h2>Обмен криптовалют в считанные минуты</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="from-coin">Отдаёте:</label>
+                <select id="from-coin">
+                    <option>BTC</option>
+                    <option>ETH</option>
+                    <option>USDT</option>
+                </select>
+                <input type="number" placeholder="Сумма">
+            </div>
+            <div class="form-group">
+                <label for="to-coin">Получаете:</label>
+                <select id="to-coin">
+                    <option>USD</option>
+                    <option>EUR</option>
+                    <option>RUB</option>
+                </select>
+                <input type="number" placeholder="Сумма">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Ваш email">
+                <label for="telegram">Телеграмм:</label>
+                <input type="text" id="telegram" placeholder="Телеграмм">
+            </div>
+            <button class="btn-exchange">Обменять</button>
+        </form>
+    </section>
+
+    <!-- 3. Блок "Изучай криптовалюты" -->
+    <section class="crypto-studies">
+        <h2>Изучай различные криптовалюты</h2>
+        <div class="crypto-grid">
+            <div class="crypto-card">
+                <img src="bitcoin-icon.png" alt="Bitcoin">
+                <h3>Bitcoin</h3>
+                <p>500,000 ₽</p>
+            </div>
+            <div class="crypto-card">
+                <img src="eth-icon.png" alt="Ethereum">
+                <h3>Ethereum</h3>
+                <p>350,000 ₽</p>
+            </div>
+            <!-- More crypto cards -->
+        </div>
+        <button class="btn-learn">Перейти к покупке</button>
+    </section>
+
+    <!-- 4. Преимущества сервиса -->
+    <section class="advantages">
+        <h2>Почему выбирают нас</h2>
+        <div class="advantages-grid">
+            <div class="adv-card">
+                <img src="security-icon.png" alt="Security">
+                <h3>Безопасность</h3>
+                <p>Ваши данные и средства под защитой</p>
+            </div>
+            <div class="adv-card">
+                <img src="support-icon.png" alt="Support">
+                <h3>Поддержка 24/7</h3>
+                <p>Мы всегда на связи</p>
+            </div>
+            <div class="adv-card">
+                <img src="liquidity-icon.png" alt="Liquidity">
+                <h3>Глубокая ликвидность</h3>
+                <p>Крупные объёмы и стабильные курсы</p>
+            </div>
+            <div class="adv-card">
+                <img src="best-rates-icon.png" alt="Best Rates">
+                <h3>Лучшие курсы</h3>
+                <p>Честные и выгодные цены</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Отзывы -->
+    <section class="reviews">
+        <h2>Отзывы наших клиентов</h2>
+        <div class="reviews-carousel">
+            <div class="review-card">
+                <p>Отличный сервис!</p>
+                <p>- Иван П.</p>
+            </div>
+            <div class="review-card">
+                <p>Всё быстро и удобно.</p>
+                <p>- Мария В.</p>
+            </div>
+            <!-- More reviews -->
+        </div>
