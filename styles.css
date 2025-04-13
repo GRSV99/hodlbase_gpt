@@ -204,7 +204,7 @@ h1, h2 {
 
 /* Стиль второго блока с кнопками сортировки и карточками */
 .crypto-card-block {
-    flex: 1;
+    flex: 2;
 }
 
 .sorting-buttons {
