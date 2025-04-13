@@ -84,6 +84,7 @@ h1, h2 {
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Легкая тень */
 }
 
 .crypto-exchange h2 {
@@ -100,6 +101,7 @@ h1, h2 {
     margin-bottom: 30px;
 }
 
+/* Стили формы */
 .exchange-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -139,7 +141,6 @@ h1, h2 {
 .exchange-form button:hover {
     background-color: #3e2d5b;
 }
-
 /* Преимущества сервиса */
 .advantages {
     display: grid;
