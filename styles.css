@@ -148,7 +148,7 @@ h1, h2 {
     background-color: #3e2d5b;
 }
 <!-- Блок Изучай различные криптовалюты -->
-/* Блок с криптовалютами */
+/* Стили для блока криптовалют */
 .crypto-info {
     padding: 40px 30px;
     background-color: #FFFFFF;
@@ -159,7 +159,7 @@ h1, h2 {
     margin: 0 auto;
 }
 
-/* Заголовок и описание: заголовок слева */
+/* Заголовок и описание */
 .crypto-header {
     display: flex;
     flex-direction: column;
@@ -178,7 +178,7 @@ h1, h2 {
     color: #555;
 }
 
-/* Кнопки сортировки */
+/* Кнопки сортировки справа */
 .sorting-buttons {
     display: flex;
     justify-content: flex-end; /* Кнопки сортировки справа */
