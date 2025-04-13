@@ -213,7 +213,7 @@ h1, h2 {
 /* Карточки криптовалют */
 .crypto-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 карточки в ряд */
+    grid-template-columns: repeat(2, 1fr); /* 2 карточки в ряд */
     gap: 20px;
     margin-top: 30px;
 }
