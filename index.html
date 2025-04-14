@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моя Страница</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Подключите ваш CSS файл -->
+    <link rel="stylesheet" href="styles.css"> <!-- Подключаем CSS файл -->
 </head>
-
 <body>
 
     <!-- 1. Акция на отзывы -->
@@ -20,104 +19,104 @@
     </section>
 
     <!-- Блок Обмен криптовалют -->
-<section class="crypto-exchange">
-    <h2>Обмен криптовалют в считанные минуты</h2>
-    <p>Удобно. Быстро. Надёжно.</p>
-    <form action="#" method="POST" class="exchange-form">
-        <div class="form-group">
-            <label for="from-coin">Отдаёте:</label>
-            <input type="number" id="from-coin" name="from-coin" placeholder="0.00">
-            <select id="from-coin-select">
-                <option>BTC</option>
-                <option>ETH</option>
-                <option>USDT</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="to-coin">Получаете:</label>
-            <input type="number" id="to-coin" name="to-coin" placeholder="0.00">
-            <select id="to-coin-select">
-                <option>ETH</option>
-                <option>USDT</option>
-                <option>BTC</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="email">Почта:</label>
-            <input type="email" id="email" name="email" placeholder="Введите ваш email">
-            <label for="phone">Номер телефона:</label>
-            <input type="text" id="phone" name="phone" placeholder="Введите ваш номер телефона">
-        </div>
-        <div class="form-group">
-            <label for="fio">ФИО:</label>
-            <input type="text" id="fio" name="fio" placeholder="Введите ФИО">
-            <label for="sbp-number">Номер СБП:</label>
-            <input type="text" id="sbp-number" name="sbp-number" placeholder="Введите номер СБП">
-        </div>
-        <button type="submit" class="btn-exchange">Обменять</button>
-    </form>
-</section>
+    <section class="crypto-exchange">
+        <h2>Обмен криптовалют в считанные минуты</h2>
+        <p>Удобно. Быстро. Надёжно.</p>
+        <form action="#" method="POST" class="exchange-form">
+            <div class="form-group">
+                <label for="from-coin">Отдаёте:</label>
+                <input type="number" id="from-coin" name="from-coin" placeholder="0.00">
+                <select id="from-coin-select">
+                    <option>BTC</option>
+                    <option>ETH</option>
+                    <option>USDT</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="to-coin">Получаете:</label>
+                <input type="number" id="to-coin" name="to-coin" placeholder="0.00">
+                <select id="to-coin-select">
+                    <option>ETH</option>
+                    <option>USDT</option>
+                    <option>BTC</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">Почта:</label>
+                <input type="email" id="email" name="email" placeholder="Введите ваш email">
+                <label for="phone">Номер телефона:</label>
+                <input type="text" id="phone" name="phone" placeholder="Введите ваш номер телефона">
+            </div>
+            <div class="form-group">
+                <label for="fio">ФИО:</label>
+                <input type="text" id="fio" name="fio" placeholder="Введите ФИО">
+                <label for="sbp-number">Номер СБП:</label>
+                <input type="text" id="sbp-number" name="sbp-number" placeholder="Введите номер СБП">
+            </div>
+            <button type="submit" class="btn-exchange">Обменять</button>
+        </form>
+    </section>
+
     <!-- 3. Изучай криптовалюты -->
-<section class="crypto-info">
-    <div class="crypto-blocks">
-        <!-- Первый блок с заголовком, описанием и кнопкой -->
-        <div class="text-block">
-            <h2>Изучай различные криптовалюты</h2>
-            <p>Просто и безопасно покупайте, продавайте и переводите сотни криптовалют.</p>
-            <button class="btn-main">Большая кнопка</button>
-        </div>
-
-        <!-- Второй блок с карточками криптовалют и кнопками сортировки -->
-        <div class="crypto-card-block">
-            <!-- Кнопки сортировки -->
-            <div class="sorting-buttons">
-                <button class="btn-sort active">Популярные</button>
-                <button class="btn-sort">Наибольший прирост</button>
-                <button class="btn-sort">На основе далоди</button>
+    <section class="crypto-info">
+        <div class="crypto-blocks">
+            <!-- Первый блок с заголовком, описанием и кнопкой -->
+            <div class="text-block">
+                <h2>Изучай различные криптовалюты</h2>
+                <p>Просто и безопасно покупайте, продавайте и переводите сотни криптовалют.</p>
+                <button class="btn-main">Большая кнопка</button>
             </div>
 
-            <!-- Карточки криптовалют -->
-            <div class="crypto-cards">
-                <div class="crypto-card">
-                    <img src="images/bitcoin-icon.png" alt="Bitcoin" class="coin-icon">
-                    <h3>Bitcoin</h3>
-                    <p>27.08.08/BTC</p>
-                    <span class="price positive">+0.48%</span>
+            <!-- Второй блок с карточками криптовалют и кнопками сортировки -->
+            <div class="crypto-card-block">
+                <div class="sorting-buttons">
+                    <button class="btn-sort active">Популярные</button>
+                    <button class="btn-sort">Наибольший прирост</button>
+                    <button class="btn-sort">На основе далоди</button>
                 </div>
-                <div class="crypto-card">
-                    <img src="images/ethereum-icon.png" alt="Ethereum" class="coin-icon">
-                    <h3>Ethereum</h3>
-                    <p>1787$ / ETH</p>
-                    <span class="price negative">-0.67%</span>
-                </div>
-                <div class="crypto-card">
-                    <img src="images/tetuier-icon.png" alt="Tetuer" class="coin-icon">
-                    <h3>Tetuer</h3>
-                    <p>1,01 $ / USDT</p>
-                    <span class="price positive">+0.15%</span>
-                </div>
-                <div class="crypto-card">
-                    <img src="images/solana-icon.png" alt="Solana" class="coin-icon">
-                    <h3>Solana</h3>
-                    <p>20,63/SOL</p>
-                    <span class="price negative">-0.52%</span>
-                </div>
-                <div class="crypto-card">
-                    <img src="images/usdc-icon.png" alt="USDC" class="coin-icon">
-                    <h3>USDC</h3>
-                    <p>1.00 $ / USDC</p>
-                    <span class="price positive">+0.02%</span>
-                </div>
-                <div class="crypto-card">
-                    <img src="images/xrp-icon.png" alt="XRP" class="coin-icon">
-                    <h3>XRP</h3>
-                    <p>0.52 / XRP</p>
-                    <span class="price negative">-0.03%</span>
+
+                <div class="crypto-cards">
+                    <div class="crypto-card">
+                        <img src="images/bitcoin-icon.png" alt="Bitcoin" class="coin-icon">
+                        <h3>Bitcoin</h3>
+                        <p>27.08.08/BTC</p>
+                        <span class="price positive">+0.48%</span>
+                    </div>
+                    <div class="crypto-card">
+                        <img src="images/ethereum-icon.png" alt="Ethereum" class="coin-icon">
+                        <h3>Ethereum</h3>
+                        <p>1787$ / ETH</p>
+                        <span class="price negative">-0.67%</span>
+                    </div>
+                    <div class="crypto-card">
+                        <img src="images/tetuier-icon.png" alt="Tetuer" class="coin-icon">
+                        <h3>Tetuer</h3>
+                        <p>1,01 $ / USDT</p>
+                        <span class="price positive">+0.15%</span>
+                    </div>
+                    <div class="crypto-card">
+                        <img src="images/solana-icon.png" alt="Solana" class="coin-icon">
+                        <h3>Solana</h3>
+                        <p>20,63/SOL</p>
+                        <span class="price negative">-0.52%</span>
+                    </div>
+                    <div class="crypto-card">
+                        <img src="images/usdc-icon.png" alt="USDC" class="coin-icon">
+                        <h3>USDC</h3>
+                        <p>1.00 $ / USDC</p>
+                        <span class="price positive">+0.02%</span>
+                    </div>
+                    <div class="crypto-card">
+                        <img src="images/xrp-icon.png" alt="XRP" class="coin-icon">
+                        <h3>XRP</h3>
+                        <p>0.52 / XRP</p>
+                        <span class="price negative">-0.03%</span>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
     <!-- 4. Преимущества сервиса -->
     <section class="advantages">
         <h2>Почему выбирают нас</h2>
@@ -198,5 +197,4 @@
     </footer>
 
 </body>
-
 </html>
