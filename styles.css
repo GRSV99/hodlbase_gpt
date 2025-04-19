@@ -21,7 +21,7 @@ body {
 .page {
     width: 100%;
     min-height: 100vh; /* Высота страницы на весь экран */
-    display: flex;
+
     justify-content: center;
     padding: 30px 0; /* Отступы сверху и снизу */
 }
